@@ -8533,14 +8533,14 @@ body:not(.device-touch) .on-hover.i-overlay {
 
 
 .social-icon {
-	margin: 0 5px 5px 0;
+	margin: 0 10px 5px 0;
 	width: 40px;
 	height: 40px;
 	font-size: 20px;
 	line-height: 38px !important;
 	color: #555;
 	text-shadow: none;
-	border: 1px solid #AAA;
+	/* border: 1px solid #AAA; */
 	border-radius: 3px;
 	overflow: hidden;
 }
