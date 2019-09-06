@@ -11365,6 +11365,10 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 
 .heading-block ~ p:not(.lead) { font-size: 15px; }
 
+.lead {
+	margin-bottom: 80px;
+}
+
 .heading-block:after {
 	content: '';
 	display: block;
@@ -13967,5 +13971,11 @@ body:not(.no-transition) #wrapper,
 
 .introduction-part-container {
 	background: #f5f5f5;
-    padding: 30px;
+    padding-top: 1px;
+}
+
+.side-image-introduction {
+	border-radius: 15px 15px 0 0;
+    margin-top: 50px;
+    margin-left: 65px;
 }
