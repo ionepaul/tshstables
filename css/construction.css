@@ -73,17 +73,6 @@
 	max-width: 450px;
 }
 
-.slider-caption h2 {
-	font-size: 24px;
-	margin-bottom: 20px;
-}
-
-.slider-caption p {
-	margin-bottom: 0;
-	font-size: 18px;
-}
-
-
 .slider-caption.slider-caption-right {
 	left: auto;
 	right: -25px;
