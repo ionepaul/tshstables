@@ -12067,7 +12067,6 @@ button.toast-close-button {
 #footer {
 	position: relative;
 	background-color: #EEE;
-	border-top: 5px solid rgba(0,0,0,0.2);
 }
 
 .device-xl.sticky-footer #top-bar,
@@ -14015,4 +14014,27 @@ body:not(.no-transition) #wrapper,
 	-webkit-box-shadow: -2px 4px 18px 5px rgba(204,204,204,0.34);
 	-moz-box-shadow: -2px 4px 18px 5px rgba(204,204,204,0.34);
 	box-shadow: -2px 4px 18px 5px rgba(204,204,204,0.34);
+}
+
+.about-section {
+	background: #fff;
+    border-top: 1px solid #eee;
+    margin-top: 14px;				
+}
+
+.about-section .container {
+	padding: 40px 0;
+}
+
+.section.no-margin {
+	margin: 0;
+}
+
+.achievements-list {
+	list-style: none;
+	padding: 10px 0;
+}
+
+.achievements-list li {
+	padding: 5px;
 }

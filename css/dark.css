@@ -1024,7 +1024,6 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 .dark #footer {
 	background-color: #333;
 	color: #CCC;
-	border-top-color: rgba(0,0,0,0.2);
 }
 
 .dark #copyrights {
