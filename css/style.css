@@ -14065,3 +14065,8 @@ body:not(.no-transition) #wrapper,
 .faq-in-menu {
 	display: none;
 }
+
+.faq-content {
+	background-color: #f9f9f9 !important;
+	padding: 50px 0;
+}
