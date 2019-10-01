@@ -160,6 +160,18 @@
 
 
 @media (max-width: 991.98px) {
+	.call-now-mobile {
+		display: inline-block;
+	}
+
+	.faq-in-menu {
+		display: inline;
+	}
+
+	.faq {
+		display: none;
+	}
+
 	.about-img {
 		display: none !important;
 	}
@@ -1077,6 +1089,8 @@
 	.slider-caption:not(.dark), .slider-caption:not(.dark) h2 {
 		display:  none;
 	}
+
+	.faq { display: none !important; }
 	
 	.col-padding {
 		padding: 40px;

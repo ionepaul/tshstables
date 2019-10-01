@@ -14051,3 +14051,17 @@ body:not(.no-transition) #wrapper,
 .one-page-menu.footer-menu li a {
    text-transform: uppercase;
 }
+
+.call-now-mobile {
+	display: none;
+}
+
+.call-now-mobile i {
+	padding: 5px 5px 0 0;
+	height: 3px;
+	color: #004daa;
+}
+
+.faq-in-menu {
+	display: none;
+}
