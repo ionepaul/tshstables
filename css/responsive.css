@@ -28,6 +28,10 @@
 	.lead {
 		margin-bottom: 50px;
 	}
+
+	#primary-menu ul li > a {
+		font-size: 12px;
+	}
 }
 
 
@@ -160,6 +164,34 @@
 
 
 @media (max-width: 991.98px) {
+	#top-bar {
+		display: block !important;
+	}
+
+	#primary-menu {
+		text-align: center;
+	}
+
+	#primary-menu ul.one-page-menu li:last-child {
+		border-bottom: 1px solid #eee;
+	}
+
+	#primary-menu.style-2 > div > ul.top-social-icons {
+		float: left !important;
+	}
+
+	#primary-menu.style-2 > div > ul.top-social-icons li {
+		display: inline-block !important;
+		margin-right: 8px !important;
+		border-top: none !important;
+	}
+
+
+	#primary-menu.style-2 > div > ul.top-social-icons > li > a {
+		padding: 0 !important;
+    	margin: 14px 0 !important;
+	}
+
 	.call-now-mobile {
 		display: inline-block;
 	}

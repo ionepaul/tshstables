@@ -52,7 +52,7 @@
 	letter-spacing: 0;
 }
 
-#header { background-color: #F9F9F9; }
+#header { background-color: #F2F2F2; }
 
 #header-wrap { background-color: #FFF; }
 
@@ -66,11 +66,10 @@
 
 
 .slider-caption {
-	background-color: rgba(255,255,255,0.9);
+	background-color: rgba(0,0,0,0.4) !important;
 	border-radius: 2px;
 	left: -25px;
 	padding: 40px;
-	max-width: 450px;
 }
 
 .slider-caption.slider-caption-right {

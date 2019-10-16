@@ -1075,7 +1075,7 @@ body.stretched #header.full-header .container {
 
 .header-extras {
 	float: right;
-	margin: 15px 0 0 0;
+	margin: 18px 0 0 0;
 }
 
 .header-extras li {
@@ -13975,13 +13975,13 @@ body:not(.no-transition) #wrapper,
 
 .col-gray-bg {
 	padding: 30px;
-    background-color: #f9f9f9;
+    background-color: #f2f2f2;
     border-radius: 26px;
 	margin-top: 70px;
 }
 
 .introduction-part-container {
-	background: #f9f9f9;
+	background: #f2f2f2;
     padding-top: 1px;
 }
 
@@ -14001,10 +14001,6 @@ body:not(.no-transition) #wrapper,
 	-moz-box-shadow: -2px 4px 18px 5px rgba(204,204,204,0.34);
 	box-shadow: -2px 4px 18px 5px rgba(204,204,204,0.34);
 } 
-
-.slider-caption {
-	background-color: unset !important;
-}
 
 #section-facilities {
 	padding-bottom: 50px;
@@ -14069,4 +14065,25 @@ body:not(.no-transition) #wrapper,
 .faq-content {
 	background-color: #f9f9f9 !important;
 	padding: 50px 0;
+}
+
+#primary-menu ul.top-social-icons {
+	float: right !important;
+    touch-action: pan-y;
+    margin-top: 13.5px;
+    padding: 0;
+    margin-right: 0;
+    margin-right: -10px;
+}
+
+#primary-menu ul.top-social-icons li  a {
+	padding: 0 !important;
+}
+
+.no-padding-left {
+	padding-left: 0 !important;
+}
+
+#top-bar {
+	display: none !important;
 }

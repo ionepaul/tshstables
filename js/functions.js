@@ -1123,8 +1123,12 @@ var SEMICOLON = SEMICOLON || {};
 		stickyMenu: function( headerOffset ){
 			if ($window.scrollTop() > headerOffset) {
 				if( $body.hasClass('device-xl') || $body.hasClass('device-lg') ) {
+					if (window.screen.width < 1200) {
+						$topIcons.addClass('hidden');
+					}
 					$('body:not(.side-header) #header:not(.no-sticky)').addClass('sticky-header');
 					$logoLi.removeClass('hidden');
+					$homeAnchor.removeClass('no-padding-left');
 					if( !$headerWrap.hasClass('force-not-dark') ) { $headerWrap.removeClass('not-dark'); }
 					SEMICOLON.header.stickyMenuClass();
 				} else if( $body.hasClass('device-sm') || $body.hasClass('device-xs') || $body.hasClass('device-md') ) {
@@ -1156,6 +1160,8 @@ var SEMICOLON = SEMICOLON || {};
 			if( $header.hasClass('sticky-header') ){
 				$('body:not(.side-header) #header:not(.no-sticky)').removeClass('sticky-header');
 				$logoLi.addClass('hidden');
+				$homeAnchor.addClass('no-padding-left');
+				$topIcons.removeClass('hidden');
 				$header.removeClass().addClass(oldHeaderClasses);
 				$headerWrap.removeClass().addClass(oldHeaderWrapClasses);
 				if( !$headerWrap.hasClass('force-not-dark') ) { $headerWrap.removeClass('not-dark'); }
@@ -3672,6 +3678,8 @@ var SEMICOLON = SEMICOLON || {};
 		$wrapper = $('#wrapper'),
 		$header = $('#header'),
 		$logoLi = $('#logo-li'),
+		$topIcons = $('#top-icons'),
+		$homeAnchor = $('#home-anchor'),
 		$headerWrap = $('#header-wrap'),
 		$content = $('#content'),
 		$footer = $('#footer'),
