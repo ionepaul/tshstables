@@ -14065,6 +14065,7 @@ body:not(.no-transition) #wrapper,
 .faq-content {
 	background-color: #f9f9f9 !important;
 	padding: 50px 0;
+	width: 100%;
 }
 
 #primary-menu ul.top-social-icons {
@@ -14086,4 +14087,30 @@ body:not(.no-transition) #wrapper,
 
 #top-bar {
 	display: none !important;
+}
+
+.cookies-bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    padding: 10px;
+    font-weight: 400;
+}
+.cookies-bar a {
+    color: #fff;
+    text-decoration: underline !important;
+}
+.cookies-bar span {
+    display: inline-block;
+    background: #004daa;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 26px;
 }

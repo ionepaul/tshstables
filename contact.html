@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
+
 <head>
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -7,7 +8,8 @@
 
 	<!-- Stylesheets
 	============================================= -->
-	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700" rel="stylesheet" type="text/css" />
+	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700"
+		rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="css/style.css" type="text/css" />
 	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
@@ -52,15 +54,20 @@
 					============================================= -->
 					<div id="top-social">
 						<ul>
-							<li><a href="https://www.facebook.com/tshstables" class="si-facebook"><span
-										class="ts-icon"><i class="icon-facebook"></i></span><span
-										class="ts-text">Facebook</span></a></li>
-						
-							<li><a href="https://www.instagram.com/tshstables" class="si-instagram"><span
-										class="ts-icon"><i class="icon-instagram"></i></span><span
-										class="ts-text">Instagram</span></a></li>
+							<li>
+								<a href="https://www.facebook.com/tshstables" class="social-icon si-small">
+									<img src="images/facebook.png">
+								</a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/tshstables" class="social-icon si-small">
+									<img src="images/instagram.png">
+								</a>
+							</li>
+
 						</ul>
 					</div><!-- #top-social end -->
+
 
 				</div>
 
@@ -70,7 +77,9 @@
 					============================================= -->
 					<div class="top-links">
 						<ul>
-							<li><a href="faqs.html">Intrebari Frecvente</a></li>
+							<li class="call-now-mobile"><a href="tel:+40726695956"><i
+										class="i-plain icon-call nomargin"></i> Sună acum</a></li>
+							<li class="faq"><a href="faqs.html">Intrebari Frecvente</a></li>
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</div><!-- .top-links end -->
@@ -91,7 +100,7 @@
 				============================================= -->
 				<div id="logo">
 					<a href="index.html" class="standard-logo"><img src="images/logo.png"
-							alt="Centru de echitatie TSH Stables Logo" style="height: 55px;"></a>
+							alt="Centru de echitatie TSH Stables Logo"></a>
 					<a href="index.html" class="retina-logo"><img src="images/logo@2x.png"
 							alt="Centru de echitatie TSH Stables Logo"></a>
 				</div><!-- #logo end -->
@@ -100,7 +109,7 @@
 					<li>
 						<i class="i-plain icon-call nomargin"></i>
 						<div class="he-text">
-							Suna-ne
+							Sună
 							<span><a href="tel:+40726695956">(+40) 726 695 956</a></span>
 						</div>
 					</li>
@@ -114,8 +123,8 @@
 					<li>
 						<i class="i-plain icon-line-clock nomargin"></i>
 						<div class="he-text">
-							Suntem Deschisi
-							<span>L - D, 10:00 - 20:00</span>
+							Program
+							<span>L - D, 10:00 - 18:00</span>
 						</div>
 					</li>
 				</ul>
@@ -126,47 +135,67 @@
 
 				<!-- Primary Navigation
 				============================================= -->
-				<nav id="primary-menu" class="with-arrows style-2 center">
+				<nav id="primary-menu" class="with-arrows style-2">
 
 					<div class="container clearfix">
 
 						<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-						<div id="mobile-logo"><img src="images/logo@2x.png"
-								alt="Centru de echitatie TSH Stables Logo" height="59"></div>
+						<div id="mobile-logo"><img src="images/logo@2x.png" alt="Centru de echitatie TSH Stables Logo"
+								height="59"></div>
 
-						<ul>
+						<ul class="one-page-menu">
 							<li id="logo-li" class="hidden">
-									<a href="index.html"><img src="images/logo.png"
-										alt="Centru de echitatie TSH Stables Logo" style="height: 55px;"></a>
+								<a href="index.html"><img src="images/TSH_Logo_Icon.png"
+										alt="Centru de echitatie TSH Stables Logo"
+										style="height: 40px;margin-top: 8px"></a>
 							</li>
-							<li><a href="index.html">
-									<div>Acasa</div>
+							<li>
+								<a id="home-anchor" class="no-padding-left" href="index.html">
+									<div>Acasă</div>
 								</a></li>
-							<li><a href="about-us.html">
+							<li>
+								<a href="about-us.html">
 									<div>Despre noi</div>
 								</a>
 							</li>
 							<li><a href="index.html#section-benefits">
-									<div>Beneficiile echitatie</div>
+									<div>Beneficiile echitației</div>
 								</a></li>
 							<li><a href="index.html#section-facilities">
-									<div>Facilitati</div>
+									<div>Galerie foto</div>
 								</a>
 							</li>
 							<li><a href="index.html#section-offer">
-									<div>Oferta noastra</div>
+									<div>Tarife</div>
 								</a></li>
 							<li><a href="index.html#google-map">
-									<div>Locatie</div>
+									<div>Locație</div>
 								</a></li>
-							<li><a href="careers.html">
-									<div>Sponsori</div>
+							<li><a href="faqs.html">
+									<div>
+										Întrebări Frecvente
+									</div>
 								</a></li>
-							<li class="current">
-								<a href="contact.html">
+							<li class="current"><a href="contact.html">
 									<div>Contact</div>
-							</a></li>
+								</a></li>
 						</ul>
+
+						<ul id="top-icons" class="top-social-icons">
+							<li>
+								<a href="https://www.facebook.com/tshstables" class="social-icon si-small">
+									<img src="images/facebook.png">
+								</a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/tshstables" class="social-icon si-small">
+									<img src="images/instagram.png">
+								</a>
+							</li>
+
+						</ul>
+
+						<div id="top-search" style="display: none"></div>
 
 					</div>
 
@@ -174,10 +203,10 @@
 
 			</div>
 
-		</header><!-- #header end -->
-		
+		</header> <!-- #header end -->
+
 		<section id="google-map" class="gmap"></section>
-		
+
 		<!-- Content
 		============================================= -->
 		<section id="content">
@@ -196,33 +225,39 @@
 
 							<div class="form-result"></div>
 
-							<form class="nobottommargin" id="contact-form" name="contact-form" >
+							<form class="nobottommargin" id="contact-form" name="contact-form">
 
 								<div class="form-process"></div>
 
 								<div class="col_one_third">
 									<label for="template-contactform-name">Nume <small>*</small></label>
-									<input type="text" id="name" name="name" value="" class="sm-form-control required" />
+									<input type="text" id="name" name="name" value=""
+										class="sm-form-control required" />
 								</div>
 
 								<div class="col_one_third">
 									<label for="template-contactform-email">Email <small>*</small></label>
-									<input type="email" id="email" name="email" value="" class="required email sm-form-control" />
+									<input type="email" id="email" name="email" value=""
+										class="required email sm-form-control" />
 								</div>
 
 								<div class="clear"></div>
 
 								<div class="col_full">
 									<label for="template-contactform-message">Mesaj <small>*</small></label>
-									<textarea class="required sm-form-control" id="message" name="message" rows="6" cols="30"></textarea>
+									<textarea class="required sm-form-control" id="message" name="message" rows="6"
+										cols="30"></textarea>
 								</div>
 
 								<div class="col_full hidden">
-									<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
+									<input type="text" id="template-contactform-botcheck"
+										name="template-contactform-botcheck" value="" class="sm-form-control" />
 								</div>
 
 								<div class="col_full">
-									<button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Trimite</button>
+									<button class="button button-3d nomargin" type="submit"
+										id="template-contactform-submit" name="template-contactform-submit"
+										value="submit">Trimite</button>
 								</div>
 
 								<input type="hidden" name="prefix" value="template-contactform-">
@@ -231,18 +266,20 @@
 						</div>
 
 					</div><!-- .postcontent end -->
-					
-					<div id="success-message" class="postcontent bottommargin-lg topmargin-lg hidden" style="text-align: center;"> 
-						<h3>Mesajul tau a fost trimis cu succes. <br> 
-						 Vom raspunde in cel mai scurt timp posibil. <br> 
-						 Multumim! 
+
+					<div id="success-message" class="postcontent bottommargin-lg topmargin-lg hidden"
+						style="text-align: center;">
+						<h3>Mesajul tau a fost trimis cu succes. <br>
+							Vom raspunde in cel mai scurt timp posibil. <br>
+							Multumim!
 						</h3>
 					</div>
-					
-					<div id="error-message" class="postcontent bottommargin-lg topmargin-lg hidden" style="text-align: center;"> 
-						<h3>Din pacate mesajul tau nu a fost trimis. <br> 
-						 Te rugam sa reincarci pagina si sa incerci din nou. <br> 
-						 Multumim! 
+
+					<div id="error-message" class="postcontent bottommargin-lg topmargin-lg hidden"
+						style="text-align: center;">
+						<h3>Din pacate mesajul tau nu a fost trimis. <br>
+							Te rugam sa reincarci pagina si sa incerci din nou. <br>
+							Multumim!
 						</h3>
 					</div>
 					<!-- Sidebar
@@ -254,12 +291,14 @@
 							<h3 class="nobottommargin uppercase">TSH Stables</h3><br>
 
 							<address>
-								
+
 								Strada Principala, Comuna Cojocna<br>
-                                Cojocna, Jud. Cluj, Romania<br>
+								Cojocna, Jud. Cluj, Romania<br>
 							</address>
-							<abbr title="Numar de telefon"><strong>Telefon: </strong></abbr><a href="tel:+40726695956">(+40) 726 695 956</a><br>
-							<abbr title="Adresa de email"><strong>Email: </strong></abbr><a href="mailto:contact@tshstables.ro">contact@tshtables.ro</a>
+							<abbr title="Numar de telefon"><strong>Telefon: </strong></abbr><a
+								href="tel:+40726695956">(+40) 726 695 956</a><br>
+							<abbr title="Adresa de email"><strong>Email: </strong></abbr><a
+								href="mailto:contact@tshstables.ro">contact@tshtables.ro</a>
 						</div>
 
 						<div class="line line-sm"></div>
@@ -310,23 +349,28 @@
 
 							<div class="row">
 
-								<div class="col-6 bottommargin-sm widget_links">
-									<ul>
-										<li><a href="#">ACASA</a></li>
-										<li><a href="#">DESPRE NOI</a></li>
-										<li><a href="#">BENEFICIILE ECHITATIEI</a></li>
-										<li><a href="#">FACILITATI</a></li>
-										<li><a href="#">OFERTA NOASTRA</a></li>
+								<div class="col-4 widget_links">
+									<ul class="one-page-menu footer-menu">
+										<li><a href="index.html">Acasa</a></li>
+										<li><a href="about-us.html">Despre noi</a></li>
+										<li><a href="index.html#section-benefits">Beneficiile echitatiei</a></li>
+
 									</ul>
 								</div>
 
-								<div class="col-6 bottommargin-sm widget_links">
-									<ul>
-										<li><a href="#">SPONSORI</a></li>
-										<li><a href="#">CE SPUN CLIENTII</a></li>
-										<li><a href="#">LOCATIE</a></li>
-										<li><a href="#">INTREBARI FRECVENTE</a></li>
-										<li><a href="#">CONTACT</a></li>
+								<div class="col-4 widget_links">
+									<ul class="one-page-menu footer-menu">
+										<li><a href="index.html#section-facilities">Facilitati</a></li>
+										<li><a href="index.html#section-offer">Tarife</a></li>
+										<li><a href="index.html#section-reviews">Ce spun clientii?</a></li>
+									</ul>
+								</div>
+
+								<div class="col-4 widget_links">
+									<ul class="one-page-menu footer-menu">
+										<li><a href="index.html#google-map">Locatie</a></li>
+										<li><a href="faqs.html">Intrebari frecvente</a></li>
+										<li><a href="contact.html">Contact</a></li>
 									</ul>
 								</div>
 
@@ -362,17 +406,18 @@
 
 						<div class="widget subscribe-widget clearfix">
 							<div class="row">
-
-								<div class="col-lg-6 clearfix bottommargin-sm">
-									<a href="#" class="social-icon si-dark si-colored si-facebook nobottommargin"
-										style="margin-right: 10px;">
-										<i class="icon-facebook"></i>
-										<i class="icon-facebook"></i>
-									</a>
-									<a href="https://www.facebook.com/tshstables"><small
-											style="display: block; margin-top: 3px;"><strong>Like
-												us</strong><br>on Facebook</small></a>
-								</div>
+								<ul class="footer-social">
+									<li>
+										<a href="https://www.facebook.com/tshstables" class="social-icon si-small">
+											<img src="images/facebook.png">
+										</a>
+									</li>
+									<li>
+										<a href="https://www.instagram.com/tshstables" class="social-icon si-small">
+											<img src="images/instagram.png">
+										</a>
+									</li>
+								</ul>
 							</div>
 						</div>
 
@@ -390,14 +435,13 @@
 
 					<div class="col_half">
 						Copyrights &copy; <span id="date"></span> TSH Stables. Toate drepturile rezerate.<br>
-						<div class="copyright-links"><a href="#">Termeni de utilizare</a> / <a href="#">Politica de
-								confidentialitate</a></div>
 					</div>
 
 					<div class="col_half col_last tright">
 						<div class="copyrights-menu copyright-links clearfix">
-							<a href="#">Acasa</a>/<a href="#">Despre noi</a>/<a href="#">Sponsori</a>/<a href="#">Oferta
-								noastra</a>/<a href="#">Sitemap</a>/<a href="#">Contact</a>
+							<a href="index.html">Acasa</a>/<a href="about-us.html">Despre noi</a>/<a
+								href="#section-offer">Tarfie</a>/<a href="terms-and-conditions.html">Termeni si
+								conditii</a>/<a href="sitemap.xml">Sitemap</a>/<a href="contact.html">Contact</a>
 						</div>
 					</div>
 
@@ -427,7 +471,7 @@
 
 	<script>
 		$('#date').text(new Date().getFullYear());
-			
+
 		$('#google-map').gMap({
 			latitude: 46.751232,
 			longitude: 23.8034773,
@@ -441,7 +485,7 @@
 					icon: {
 						image: "images/marker.png",
 						iconsize: [32, 39],
-						iconanchor: [13,39]
+						iconanchor: [13, 39]
 					}
 				}
 			],
@@ -458,6 +502,7 @@
 
 	</script>
 
- 
+
 </body>
+
 </html>
