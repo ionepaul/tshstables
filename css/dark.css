@@ -351,7 +351,9 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 
 .dark .breadcrumb a:hover { color: #EEE; }
 
-.dark #page-title.page-title-pattern { background-image: url('../images/pattern2.png'); }
+.dark #page-title.page-title-pattern { 
+	/* background-image: url('../images/pattern2.png');  */
+}
 
 
 .dark .portfolio-filter { border-color: rgba(255,255,255,0.08); }
@@ -1087,7 +1089,7 @@ body #side-panel.dark #side-panel-trigger-close a {
 .dark .widget_pages li a,
 .dark .widget_rss li a {
 	color: #CCC;
-	background-image: url("../images/icons/widget-link-dark.png");
+	/* background-image: url("../images/icons/widget-link-dark.png"); */
 }
 
 .dark .widget_nav_menu li a:hover,
