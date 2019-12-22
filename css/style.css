@@ -14115,6 +14115,26 @@ body:not(.no-transition) #wrapper,
     border-radius: 26px;
 }
 
+.action-btn-container {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.action-btn {
+	display: inline-block;
+    background: #004daa;
+	color: #fff;
+    padding: 6px 14px;
+    margin: 0 5px;
+    cursor: pointer;
+	border-radius: 26px;
+	font-size: 16px;
+}
+
+.action-btn:hover {
+	color: #fff;
+}
+
 .cookie-table th,
 .cookie-table td {
     padding: 10px;

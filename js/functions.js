@@ -107,6 +107,12 @@ var SEMICOLON = SEMICOLON || {};
 			SEMICOLON.initialize.stickyFooter();
 
 			$('.fslider').addClass('preloader2');
+			
+			$('#date').text(new Date().getFullYear());
+
+			$('#cookie-accept-btn').on("click", function () {
+				$('.cookies-bar').css('display', 'none');
+			});
 
 		},
 
