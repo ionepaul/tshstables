@@ -60,7 +60,7 @@ $(document).ready(function() {
         submitHandler: function(form) {
 			showLoader();
 			
-            var url = 'http://api.tshstables.ro/api/mail/send';
+            var url = 'https://api.tshstables.ro/api/mail/send';
 
             var formData = {
                 name: $('#name').val(),
