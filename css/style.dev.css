@@ -1,95 +1,3 @@
-/*-----------------------------------------------------------------------------------
-
-	Theme Name: Canvas
-	Theme URI: http://themes.semicolonweb.com/html/canvas
-	Description: The Multi-Purpose Template
-	Author: SemiColonWeb
-	Author URI: http://themeforest.net/user/semicolonweb
-	Version: 5.9
-
------------------------------------------------------------------------------------*/
-
-/* ----------------------------------------------------------------
-
-	- Basic
-	- Typography
-	- Basic Layout Styles
-	- Helper Classes
-	- Sections
-	- Columns & Grids
-	- Flex Slider
-	- Swiper Slider
-	- Top Bar
-	- Header
-		- Logo
-		- Primary Menu
-		- Mega Menu
-		- Top Search
-		- Top Cart
-		- Sticky Header
-		- Page Menu
-		- Side Header
-	- Side Panel
-	- Slider
-	- Page Title
-	- Content
-	- Portfolio
-	- Blog
-	- Shop
-	- Events
-	- Shortcodes
-		- Countdown
-		- Buttons
-		- Promo Boxes
-		- Featured Boxes
-		- Process Steps
-		- Styled Icons
-		- Toggles
-		- Accordions
-		- Tabs
-		- Side Navigation
-		- FAQ List
-		- Clients
-		- Testimonials
-		- Team
-		- Pricing Boxes
-		- Counter
-		- Animated Rounded Skills
-		- Skills Bar
-		- Dropcaps & Highlights
-		- Quotes & Blockquotes
-		- Text Rotater
-	- Owl Carousel
-	- Overlays
-	- Forms
-	- Google Maps
-	- Heading Styles
-	- Divider
-	- Magazine Specific Classes
-	- Go To Top
-	- Error 404
-	- Landing Pages
-	- Preloaders
-	- Toastr Notifications
-	- Footer
-	- Widgets
-		- Tag Cloud
-		- Links
-		- Testimonial & Twitter
-		- Quick Contact Form
-		- Newsletter
-		- Twitter Feed
-		- Navigation Tree
-	- Wedding
-	- Bootstrap Specific
-	- Cookie Notification
-	- Stretched Layout
-	- Page Transitions
-	- Youtube Video Backgrounds
-
----------------------------------------------------------------- */
-
-
 /* ----------------------------------------------------------------
 	Bootstrap Adjustments
 -----------------------------------------------------------------*/
@@ -14144,4 +14052,20 @@ body:not(.no-transition) #wrapper,
 .cookie-table tr th:first-child,
 .cookie-table tr td:first-child {
    border-right: 1px solid #ccc;
+}
+
+#slider1 {
+	background-image: url('https://ik.imagekit.io/tshstables/slider/IMG_6378_MurAKioMi.jpg'); background-position: center;
+}
+
+#slider2 {
+	background-image: url('https://ik.imagekit.io/tshstables/slider/1_hOS9RCchB.jpg'); background-position: center;
+}
+
+#slider3 {
+	background-image: url('https://ik.imagekit.io/tshstables/slider/2_55hAo7G4A.jpg'); background-position: center;
+}
+
+#slider4 {
+	background-image: url('https://ik.imagekit.io/tshstables/slider/3_4e1a5lH-F.jpg'); background-position: center;
 }

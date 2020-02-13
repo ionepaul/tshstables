@@ -2,7 +2,6 @@
 	Responsive CSS
 -----------------------------------------------------------------*/
 
-
 @media (max-width: 1199.98px) {
 
 	canvas {
@@ -1611,10 +1610,40 @@
 	.error404,
 	.error404-wrap .error404 { font-size: 160px; }
 
+	#slider1 {
+		background-image: url('https://ik.imagekit.io/tshstables/slider/IMG_6378_MurAKioMi.jpg?tr=w-800,h-300'); background-position: center;
+	}
+	
+	#slider2 {
+		background-image: url('https://ik.imagekit.io/tshstables/slider/1_hOS9RCchB.jpg?tr=w-800,h-300'); background-position: center;
+	}
+	
+	#slider3 {
+		background-image: url('https://ik.imagekit.io/tshstables/slider/2_55hAo7G4A.jpg?tr=w-800,h-300'); background-position: center;
+	}
+	
+	#slider4 {
+		background-image: url('https://ik.imagekit.io/tshstables/slider/3_4e1a5lH-F.jpg?tr=w-800,h-300'); background-position: center;
+	}
 }
 
 
 @media (max-width: 575.98px) {
+	#slider1 {
+		background-image: url('https://ik.imagekit.io/tshstables/slider/IMG_6378_MurAKioMi.jpg?tr=w-600,h-250'); background-position: center;
+	}
+	
+	#slider2 {
+		background-image: url('https://ik.imagekit.io/tshstables/slider/1_hOS9RCchB.jpg?tr=w-600,h-250'); background-position: center;
+	}
+	
+	#slider3 {
+		background-image: url('https://ik.imagekit.io/tshstables/slider/2_55hAo7G4A.jpg?tr=w-600,h-250'); background-position: center;
+	}
+	
+	#slider4 {
+		background-image: url('https://ik.imagekit.io/tshstables/slider/3_4e1a5lH-F.jpg?tr=w-600,h-250'); background-position: center;
+	}
 
 	.container,
 	#header.full-header .container,
