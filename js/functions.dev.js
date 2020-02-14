@@ -114,6 +114,10 @@ var SEMICOLON = SEMICOLON || {};
 				$('.cookies-bar').css('display', 'none');
 			});
 
+			$('#mobile-logo img').on('click', function() {
+				window.location.href = "index.html";
+			});
+
 		},
 
 		responsiveClasses: function(){
