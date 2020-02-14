@@ -36,23 +36,23 @@
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700" rel="stylesheet"
 	 type="text/css" />
 
-	<link async rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link async rel="stylesheet" href="css/index.bootstrap.css" type="text/css" />
 	<link async rel="stylesheet" href="css/style.css" type="text/css" />
-	<link defer rel="stylesheet" href="css/swiper.css" type="text/css" />
 	<link async rel="stylesheet" href="css/construction.css" type="text/css" />
-	<link defer rel="stylesheet" href="css/dark.css" type="text/css" />
-	<link defer rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link defer rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link defer rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-	<link async rel="stylesheet" href="css/fonts.css" type="text/css" />
 	<link async rel="stylesheet" href="css/responsive.css" type="text/css" />
-	<link defer rel="stylesheet" href="css/colors.css" type="text/css" />
+
+	<link async defer rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link async defer rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link async defer rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+	<link async defer rel="stylesheet" href="css/swiper.css" type="text/css" />
+	<link async defer rel="stylesheet" href="css/fonts.css" type="text/css" />
+	<link async defer rel="stylesheet" href="css/colors.css" type="text/css" />
 
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 
-<body class="stretched" data-animation-in="fadeIn" data-speed-in="1500" data-animation-out="fadeOut" data-speed-out="1500">
+<body class="stretched" data-animation-in="fadeIn" data-speed-in="500" data-animation-out="fadeOut" data-speed-out="500">
 
 	<!-- Document Wrapper
 	============================================= -->
@@ -72,12 +72,12 @@
 						<ul>
 							<li>
 								<a href="https://www.facebook.com/tshstables" class="social-icon si-small">
-									<img src="images/facebook.png" alt="facebook logo">
+									<img data-src="https://ik.imagekit.io/tshstables/logos/facebook_mHMpUS2YsN.png" class="lazyload" alt="facebook logo">
 								</a>
 							</li>
 							<li>
 								<a href="https://www.instagram.com/tshstables" class="social-icon si-small">
-									<img src="images/instagram.png" alt="instagram logo">
+									<img data-src="https://ik.imagekit.io/tshstables/logos/instagram_IvJMbzaJA6.png" class="lazyload" alt="instagram logo">
 								</a>
 							</li>
 
@@ -114,8 +114,10 @@
 				<!-- Logo
 				============================================= -->
 				<div id="logo">
-					<a href="index.html" class="standard-logo"><img src="images/logo.png" alt="Centru de echitatie TSH Stables Logo"></a>
-					<a href="index.html" class="retina-logo"><img src="images/logo@2x.png" alt="Centru de echitatie TSH Stables Logo"></a>
+					<a href="index.html" class="standard-logo"><img data-src="https://ik.imagekit.io/tshstables/logos/logo_i-Zy9pZf6.png"
+						 class="lazyload" alt="Centru de echitatie TSH Stables Logo"></a>
+					<a href="index.html" class="retina-logo"><img data-src="https://ik.imagekit.io/tshstables/logos/logo_2x_C0DRyp3wQ.png"
+						 class="lazyload" alt="Centru de echitatie TSH Stables Logo"></a>
 				</div><!-- #logo end -->
 
 				<ul class="header-extras">
@@ -153,12 +155,13 @@
 					<div class="container clearfix">
 
 						<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-						<div id="mobile-logo"><img src="images/logo@2x.png" alt="Centru de echitatie TSH Stables Logo" height="59"></div>
+						<div id="mobile-logo"><img data-src="https://ik.imagekit.io/tshstables/logos/logo_2x_C0DRyp3wQ.png" class="lazyload"
+							 alt="Centru de echitatie TSH Stables Logo" height="59"></div>
 
 						<ul class="one-page-menu">
 							<li id="logo-li" class="hidden">
-								<a href="#" data-href="#top-search"><img src="images/TSH_Logo_Icon.png" alt="Centru de echitatie TSH Stables Logo"
-									 style="height: 40px;margin-top: 8px"></a>
+								<a href="#" data-href="#top-search"><img data-src="https://ik.imagekit.io/tshstables/logos/TSH_Logo_Icon_mry8hIUSO.png"
+									 class="lazyload" alt="Centru de echitatie TSH Stables Logo" style="height: 40px;margin-top: 8px"></a>
 							</li>
 							<li>
 								<a id="home-anchor" class="no-padding-left" href="about-us.html">
@@ -191,12 +194,12 @@
 						<ul id="top-icons" class="top-social-icons">
 							<li>
 								<a href="https://www.facebook.com/tshstables" class="social-icon si-small">
-									<img src="images/facebook.png" alt="facebook logo">
+									<img data-src="https://ik.imagekit.io/tshstables/logos/facebook_mHMpUS2YsN.png" class="lazyload" alt="facebook logo">
 								</a>
 							</li>
 							<li>
 								<a href="https://www.instagram.com/tshstables" class="social-icon si-small">
-									<img src="images/instagram.png" alt="instagram logo">
+									<img data-src="https://ik.imagekit.io/tshstables/logos/instagram_IvJMbzaJA6.png" class="lazyload" alt="instagram logo">
 								</a>
 							</li>
 
@@ -217,15 +220,25 @@
 
 			<div class="swiper-container swiper-parent">
 				<div class="swiper-wrapper">
-					<div id="slider1" class="swiper-slide">
+					<div class="swiper-slide">
+						<div data-background="images/slider/2.jpg" class="swiper-lazy">
+							<div class="swiper-lazy-preloader"></div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div data-background="images/slider/1.jpg" class="swiper-lazy">
+							<div class="swiper-lazy-preloader"></div>
+						</div>
+					</div>
+					<div id="slider1" class="swiper-slide swiper-lazy">
 						<div class="container clearfix">
 						</div>
 					</div>
-					<div id="slider2" class="swiper-slide">
+					<div id="slider2" class="swiper-slide swiper-lazy">
 						<div class="container clearfix">
 						</div>
 					</div>
-					<div id="slider3" class="swiper-slide">
+					<div id="slider3" class="swiper-slide swiper-lazy">
 						<div class="container clearfix">
 						</div>
 					</div>
@@ -296,8 +309,8 @@
 						<div class="feature-box media-box">
 
 							<div class="fbox-media upper-media">
-								<a href="https://ik.imagekit.io/tshstables/benefits/1_QIjpezCeW.jpg" data-lightbox="gallery-item"> <img class="image_fade card-image"
-									 src="https://ik.imagekit.io/tshstables/benefits/1_QIjpezCeW.jpg?tr=w-400,h-300" alt="relaxare calare, eliberarea stresului prin echitatie, echitatie cluj, centru de echitatie transilvania sport horse"></a>
+								<a href="https://ik.imagekit.io/tshstables/benefits/1_QIjpezCeW.jpg" data-lightbox="gallery-item"> <img class="image_fade card-image lazyload"
+									 data-src="https://ik.imagekit.io/tshstables/benefits/1_QIjpezCeW.jpg?tr=w-400,h-300" alt="relaxare calare, eliberarea stresului prin echitatie, echitatie cluj, centru de echitatie transilvania sport horse"></a>
 
 							</div>
 							<div class="fbox-desc">
@@ -314,8 +327,8 @@
 					<div class="col_one_third col-gray-bg">
 						<div class="feature-box media-box">
 							<div class="fbox-media upper-media">
-								<a href="https://ik.imagekit.io/tshstables/benefits/3_7Ognh59VJ.JPG" data-lightbox="gallery-item"> <img class="image_fade card-image"
-									 src="https://ik.imagekit.io/tshstables/benefits/3_7Ognh59VJ.JPG?tr=w-400,h-300" alt="sarituri peste obstacole, calarie, calarie cluj, echitatie cluj, centru de echitatie cluj napoca, tsh stables"></a>
+								<a href="https://ik.imagekit.io/tshstables/benefits/3_7Ognh59VJ.JPG" data-lightbox="gallery-item"> <img class="image_fade card-image lazyload"
+									 data-src="https://ik.imagekit.io/tshstables/benefits/3_7Ognh59VJ.JPG?tr=w-400,h-300" alt="sarituri peste obstacole, calarie, calarie cluj, echitatie cluj, centru de echitatie cluj napoca, tsh stables"></a>
 							</div>
 							<div class="fbox-desc">
 								<h3>Îmbunătățirea concentrării</h3>
@@ -330,8 +343,8 @@
 					<div class="col_one_third col-gray-bg col_last">
 						<div class="feature-box media-box">
 							<div class="fbox-media upper-media">
-								<a href="https://ik.imagekit.io/tshstables/benefits/2_ZPgZs2155.jpg" data-lightbox="gallery-item"> <img class="image_fade card-image"
-									 src="https://ik.imagekit.io/tshstables/benefits/2_ZPgZs2155.jpg?tr=w-400,h-300" alt="echitatie copii cluj napoca, consolidarea echilibrului, centru de echitatie cluj napoca, tsh stables"></a>
+								<a href="https://ik.imagekit.io/tshstables/benefits/2_ZPgZs2155.jpg" data-lightbox="gallery-item"> <img class="image_fade card-image lazyload"
+									 data-src="https://ik.imagekit.io/tshstables/benefits/2_ZPgZs2155.jpg?tr=w-400,h-300" alt="echitatie copii cluj napoca, consolidarea echilibrului, centru de echitatie cluj napoca, tsh stables"></a>
 							</div>
 							<div class="fbox-desc">
 								<h3>Consolidarea echilibrului și coordonarea mișcărilor</h3>
@@ -369,19 +382,22 @@
 							<a href="https://ik.imagekit.io/tshstables/gallery/boxe_1cpoqyk7S.jpg" data-lightbox="gallery-item"><img class="image_fade lazyload"
 								 src="https://ik.imagekit.io/tshstables/gallery/boxe_1cpoqyk7S.jpg?tr=w-300,h-200" alt="centru de echitatie cluj napoca, tsh stables, calarie cluj, sarituri peste obstacole, cai, echitatie cluj napoca, echitatie pentru copii"></a>
 							<a href="https://ik.imagekit.io/tshstables/gallery/sarituri2_E2mczvsyi.jpg" data-lightbox="gallery-item"><img
-								 class="image_fade lazyload" src="https://ik.imagekit.io/tshstables/gallery/sarituri2_E2mczvsyi.jpg?tr=w-300,h-200" alt="centru de echitatie cluj napoca, tsh stables, calarie cluj, sarituri peste obstacole, cai, echitatie cluj napoca, echitatie pentru copii"></a>
+								 class="image_fade lazyload" src="https://ik.imagekit.io/tshstables/gallery/sarituri2_E2mczvsyi.jpg?tr=w-300,h-200"
+								 alt="centru de echitatie cluj napoca, tsh stables, calarie cluj, sarituri peste obstacole, cai, echitatie cluj napoca, echitatie pentru copii"></a>
 							<a href="https://ik.imagekit.io/tshstables/gallery/antrenament_KnMKoLOuw.jpeg" data-lightbox="gallery-item"><img
 								 class="image_fade lazyload" src="https://ik.imagekit.io/tshstables/gallery/antrenament_KnMKoLOuw.jpeg?tr=w-300,h-200"
 								 alt="centru de echitatie cluj napoca, tsh stables, calarie cluj, sarituri peste obstacole, cai, echitatie cluj napoca, echitatie pentru copii"></a>
 							<a href="https://ik.imagekit.io/tshstables/gallery/sarituri_ct8T_pLfk.jpg" data-lightbox="gallery-item"><img
-								 class="image_fade lazyload" src="https://ik.imagekit.io/tshstables/gallery/sarituri_ct8T_pLfk.jpg?tr=w-300,h-200" alt="centru de echitatie cluj napoca, tsh stables, calarie cluj, sarituri peste obstacole, cai, echitatie cluj napoca, echitatie pentru copii"></a>
+								 class="image_fade lazyload" src="https://ik.imagekit.io/tshstables/gallery/sarituri_ct8T_pLfk.jpg?tr=w-300,h-200"
+								 alt="centru de echitatie cluj napoca, tsh stables, calarie cluj, sarituri peste obstacole, cai, echitatie cluj napoca, echitatie pentru copii"></a>
 							<a href="https://ik.imagekit.io/tshstables/gallery/tabara_rNcgzyTMg.jpg" data-lightbox="gallery-item"><img class="image_fade lazyload"
 								 src="https://ik.imagekit.io/tshstables/gallery/tabara_rNcgzyTMg.jpg?tr=w-300,h-200" alt="centru de echitatie cluj napoca, tsh stables, calarie cluj, sarituri peste obstacole, cai, echitatie cluj napoca, echitatie pentru copii"></a>
 							<a href="https://ik.imagekit.io/tshstables/gallery/WhatsApp_Image_2019-08-10_at_21.04.44_OaEiMljM0.jpeg"
 							 data-lightbox="gallery-item"><img class="image_fade lazyload" src="https://ik.imagekit.io/tshstables/gallery/WhatsApp_Image_2019-08-10_at_21.04.44_OaEiMljM0.jpeg?tr=w-300,h-200"
 								 alt="centru de echitatie cluj napoca, tsh stables, calarie cluj, sarituri peste obstacole, cai, echitatie cluj napoca, echitatie pentru copii"></a>
 							<a href="https://ik.imagekit.io/tshstables/gallery/IMG_6281_i-5GPTU6d.jpg" data-lightbox="gallery-item"><img
-								 class="image_fade lazyload" src="https://ik.imagekit.io/tshstables/gallery/IMG_6281_i-5GPTU6d.jpg?tr=w-300,h-200" alt="centru de echitatie cluj napoca, tsh stables, calarie cluj, sarituri peste obstacole, cai, echitatie cluj napoca, echitatie pentru copii"></a>
+								 class="image_fade lazyload" src="https://ik.imagekit.io/tshstables/gallery/IMG_6281_i-5GPTU6d.jpg?tr=w-300,h-200"
+								 alt="centru de echitatie cluj napoca, tsh stables, calarie cluj, sarituri peste obstacole, cai, echitatie cluj napoca, echitatie pentru copii"></a>
 						</div>
 					</div>
 				</div>
@@ -488,7 +504,8 @@
 							<div class="oc-item">
 								<div class="testimonial">
 									<div class="testi-image">
-										<a href="#"><img data-src="https://ik.imagekit.io/tshstables/testimonials/3_Hd_C6Ao0lP.jpg" class="lazyload" alt="Ce spun clientii - TSH Stables Cluj-Napoca, centru de echitatie"></a>
+										<a href="#"><img data-src="https://ik.imagekit.io/tshstables/testimonials/3_Hd_C6Ao0lP.jpg" class="lazyload"
+											 alt="Ce spun clientii - TSH Stables Cluj-Napoca, centru de echitatie"></a>
 									</div>
 									<div class="testi-content">
 										<p>E minunat totul...începând de la oamenii de acolo care te întâmpina cu multă
@@ -505,7 +522,8 @@
 							<div class="oc-item">
 								<div class="testimonial">
 									<div class="testi-image">
-										<a href="#"><img data-src="https://ik.imagekit.io/tshstables/testimonials/2_pfwkL-J7jo.jpg" class="lazyload" alt="Ce spun clientii - TSH Stables Cluj-Napoca, centru de echitatie"></a>
+										<a href="#"><img data-src="https://ik.imagekit.io/tshstables/testimonials/2_pfwkL-J7jo.jpg" class="lazyload"
+											 alt="Ce spun clientii - TSH Stables Cluj-Napoca, centru de echitatie"></a>
 									</div>
 									<div class="testi-content">
 										<p>Very well-trained and well-cared horses, top conditions for people and
@@ -519,7 +537,8 @@
 							<div class="oc-item">
 								<div class="testimonial">
 									<div class="testi-image">
-										<a href="#"><img data-src="https://ik.imagekit.io/tshstables/testimonials/5_-6akr_GeC.jpg" class="lazyload" alt="Ce spun clientii - TSH Stables Cluj-Napoca, centru de echitatie"></a>
+										<a href="#"><img data-src="https://ik.imagekit.io/tshstables/testimonials/5_-6akr_GeC.jpg" class="lazyload"
+											 alt="Ce spun clientii - TSH Stables Cluj-Napoca, centru de echitatie"></a>
 									</div>
 									<div class="testi-content">
 										<p>Locatia perfecta pentru relaxare dupa job!</p>
@@ -532,7 +551,8 @@
 							<div class="oc-item">
 								<div class="testimonial">
 									<div class="testi-image">
-										<a href="#"><img data-src="https://ik.imagekit.io/tshstables/testimonials/4_06FnM8wUt.jpg" class="lazyload" alt="Ce spun clientii - TSH Stables Cluj-Napoca, centru de echitatie"></a>
+										<a href="#"><img data-src="https://ik.imagekit.io/tshstables/testimonials/4_06FnM8wUt.jpg" class="lazyload"
+											 alt="Ce spun clientii - TSH Stables Cluj-Napoca, centru de echitatie"></a>
 									</div>
 									<div class="testi-content">
 										<p>Un loc minunat cu oameni la fel ,unde te poti relaxa 😘!</p>
@@ -545,7 +565,8 @@
 							<div class="oc-item">
 								<div class="testimonial">
 									<div class="testi-image">
-										<a href="#"><img data-src="https://ik.imagekit.io/tshstables/testimonials/1_toeWGCWG1c.jpg" class="lazyload" alt="Ce spun clientii - TSH Stables Cluj-Napoca, centru de echitatie"></a>
+										<a href="#"><img data-src="https://ik.imagekit.io/tshstables/testimonials/1_toeWGCWG1c.jpg" class="lazyload"
+											 alt="Ce spun clientii - TSH Stables Cluj-Napoca, centru de echitatie"></a>
 									</div>
 									<div class="testi-content">
 										<p>Locație foarte frumoasa, curată și oameni profesioniști! Felicitări :)</p>
@@ -584,7 +605,8 @@
 
 						<div class="widget clearfix">
 
-							<img src="images/logo_footer.png" alt="Centru de echitatie TSH Stables Logo" class="alignleft" style="margin-top: 8px; padding-right: 18px; border-right: 1px solid #4A4A4A;">
+							<img data-src="https://ik.imagekit.io/tshstables/logos/logo_footer_lB0prE18g.png" class="lazyload" alt="Centru de echitatie TSH Stables Logo"
+							 class="alignleft" style="margin-top: 8px; padding-right: 18px; border-right: 1px solid #4A4A4A;">
 
 							<p>Situat la doar 18 km de centrul orașului Cluj-Napoca, centrul de echitatie TSH Stables a luat naștere ca
 								urmare a dezvoltării în țară și în special în județul nostru a sportului ecvestru și a dragostei față de cal.
@@ -656,12 +678,12 @@
 								<ul class="footer-social">
 									<li>
 										<a href="https://www.facebook.com/tshstables" class="social-icon si-small">
-											<img src="images/facebook.png" alt="facebook logo">
+											<img data-src="https://ik.imagekit.io/tshstables/logos/facebook_mHMpUS2YsN.png" class="lazyload" alt="facebook logo">
 										</a>
 									</li>
 									<li>
 										<a href="https://www.instagram.com/tshstables" class="social-icon si-small">
-											<img src="images/instagram.png" alt="instagram logo">
+											<img data-src="https://ik.imagekit.io/tshstables/logos/instagram_IvJMbzaJA6.png" class="lazyload" alt="instagram logo">
 										</a>
 									</li>
 								</ul>
@@ -697,16 +719,17 @@
 
 		</footer><!-- #footer end -->
 
+
+		<div class="cookies-bar">
+			Acest site folosește cookie-uri pentru a oferi servicii, pentru a personaliza anunțuri și pentru a analiza
+			traficul.
+			Află mai multe despre <a href="cookies.html">modul în care folosim cookies.</a> <span id="cookie-accept-btn" class="acceptCookies">Accept</span>
+		</div>
 	</div><!-- #wrapper end -->
 
 	<!-- Cookie bar
 	============================================= -->
 
-	<div class="cookies-bar">
-		Acest site folosește cookie-uri pentru a oferi servicii, pentru a personaliza anunțuri și pentru a analiza
-		traficul.
-		Află mai multe despre <a href="cookies.html">modul în care folosim cookies.</a> <span id="cookie-accept-btn" class="acceptCookies">Accept</span>
-	</div>
 
 	<!-- Go To Top
 	============================================= -->
@@ -714,45 +737,54 @@
 
 	<!-- External JavaScripts
 	============================================= -->
+
 	<script src="js/jquery.js"></script>
 	<script src="js/plugins.js"></script>
-	
-	<!-- Footer Scripts=============================================-->
 	<script src="js/functions.js"></script>
+
 	<script async src="js/lazysizes.min.js"></script>
 
-	<script async src="https://maps.googleapis.com/maps/api/js?key="></script>
+	<script defer src="https://maps.googleapis.com/maps/api/js?callback=loadGMapScript&key="></script>
 
-	<script src="js/jquery.gmap.js"> </script>
+	<script>
+		function loadGMapScript() {
+			var script = document.createElement('script');
+			script.src = "js/jquery.gmap.js";
+			var head = document.getElementsByTagName("head")[0];
+			head.appendChild(script);
 
-	<script defer>
-		$('#google-map').gMap({
-			latitude: 46.751232,
-			longitude: 23.8034773,
-			maptype: 'ROADMAP',
-			zoom: 12,
-			markers: [
-				{
-					latitude: 46.751232,
-					longitude: 23.8034773,
-					html: '<a href="https://www.google.com/maps/dir//TSH+Stables,+Strada+Principala+1,+Cojocna+407240/@46.7511067,23.8034447,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x4749754bd9ea8b6d:0x660def9c917913bd!2m2!1d23.8056334!2d46.7511067!3e0" target="_blank">Obtine indicatii</a>',
-					icon: {
-						image: "images/marker.png",
-						iconsize: [32, 39],
-						iconanchor: [13, 39]
+			setTimeout(loadMap, 1000);
+		}
+
+		function loadMap() {
+			$('#google-map').gMap({
+				latitude: 46.751232,
+				longitude: 23.8034773,
+				maptype: 'ROADMAP',
+				zoom: 12,
+				markers: [
+					{
+						latitude: 46.751232,
+						longitude: 23.8034773,
+						html: '<a href="https://www.google.com/maps/dir//TSH+Stables,+Strada+Principala+1,+Cojocna+407240/@46.7511067,23.8034447,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x4749754bd9ea8b6d:0x660def9c917913bd!2m2!1d23.8056334!2d46.7511067!3e0" target="_blank">Obtine indicatii</a>',
+						icon: {
+							image: "images/marker.png",
+							iconsize: [32, 39],
+							iconanchor: [13, 39]
+						}
 					}
+				],
+				doubleclickzoom: true,
+				controls: {
+					panControl: true,
+					zoomControl: true,
+					mapTypeControl: true,
+					scaleControl: true,
+					streetViewControl: true,
+					overviewMapControl: true
 				}
-			],
-			doubleclickzoom: true,
-			controls: {
-				panControl: true,
-				zoomControl: true,
-				mapTypeControl: true,
-				scaleControl: true,
-				streetViewControl: true,
-				overviewMapControl: true
-			}
-		});
+			});
+		}
 
 	</script>
 
