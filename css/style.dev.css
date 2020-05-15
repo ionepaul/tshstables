@@ -11646,8 +11646,8 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 	text-align: center;
 	color: #FFF;
 	top: auto;
-	left: auto;
-	right: 30px;
+	left: 30px;
+	right: auto;
 	bottom: 50px;
 	cursor: pointer;
 	border-radius: 2px;
