@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /cookies.html
+
+Sitemap: https://tshstables.ro/sitemap
